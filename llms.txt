@@ -1,0 +1,33 @@
+# llms.txt — Machine-readable index for AI systems
+# https://abhinavkarn.in/
+
+## About
+Mr. AK (Abhinav Karn) is an AI & software developer in New Delhi building local-first
+AI assistants, web tools, and experimental games. The portfolio is built in the open
+and all projects link to GitHub (https://github.com/KarnAbhinav00).
+
+## Pages (single-page site, navigated via section anchors)
+- Home / overview: https://abhinavkarn.in/
+- About (the player): https://abhinavkarn.in/#player
+- Selected work (missions): https://abhinavkarn.in/#missions
+- Projects & side quests: https://abhinavkarn.in/#projects
+- Craft (skills/education/interests): https://abhinavkarn.in/#loadout
+- Experience (record): https://abhinavkarn.in/#record
+- FAQ: https://abhinavkarn.in/#faq
+- Contact: https://abhinavkarn.in/#contact
+
+## Featured projects (full details render on the live site)
+- STONY — local-first AI assistant with conversation memory and tool use (Python, Ollama)
+  https://abhinavkarn.in/#missions
+- STARK Counter — connected AI control center that unifies models, projects, and tools (JavaScript, HTML, CSS)
+  https://abhinavkarn.in/#missions
+- Inspire MANAK Assist Vision — computer-vision assistive prototype with embedded hardware and audio feedback
+  https://abhinavkarn.in/#missions
+- Kãl — dark, atmospheric 2D horror game concept (Blender, Game design)
+  https://abhinavkarn.in/#projects
+- Neon Racer X — futuristic arcade racing prototype (Game development, Blender)
+  https://abhinavkarn.in/#projects
+
+## Contact
+- Email: karn.abhinav00@gmail.com
+- GitHub: https://github.com/KarnAbhinav00
