@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Mr. AK — AI & Software Developer</title>
+    <title>Mr. AK</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Italianno&family=Space+Grotesk:wght@400;500;700&display=swap"
         rel="stylesheet">
@@ -1426,7 +1426,7 @@
         /* ====================================== */
         const $ = i => document.getElementById(i), T = (i, v) => $(i).textContent = v;
         const mk = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e };
-        document.title = D.name + " — " + D.role;
+        document.title = D.name;
         const parts = D.name.split(" "); const h = $("h-title");
         parts.forEach((p, i) => { const s = mk("span", i % 2 ? "o" : "", p); if (!i) { s.className = ""; const w = mk("span", "hl", p); s.textContent = ""; s.appendChild(w) } h.appendChild(s) });
         T("h-sub", D.role + " — " + D.tagline);
