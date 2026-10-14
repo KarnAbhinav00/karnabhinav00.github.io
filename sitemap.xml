@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Sitemap for https://abhinavkarn.in/ (single-page portfolio, served via GitHub Pages) -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/2009-07/sitemap">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://abhinavkarn.in/</loc>
-    <lastmod>2026-10-14</lastmod>
   </url>
 </urlset>
