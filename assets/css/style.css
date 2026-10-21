@@ -944,11 +944,10 @@ a:hover { color: var(--white); }
     --floating-nav-bottom: 24px;
 }
 
-body {
-    padding-bottom: calc(var(--floating-nav-h) + var(--floating-nav-bottom) + env(safe-area-inset-bottom, 16px));
-}
+/* Body padding-bottom is now applied strictly in mobile media query */
 
 .floating-dock-container {
+    display: none; /* Hidden on PC and desktop screens by default */
     position: fixed;
     bottom: var(--floating-nav-bottom);
     left: 50%;
@@ -1086,6 +1085,13 @@ body {
 
 /* Mobile Screens (<=768px) */
 @media (max-width: 768px) {
+    body {
+        padding-bottom: calc(var(--floating-nav-h) + var(--floating-nav-bottom) + env(safe-area-inset-bottom, 16px));
+    }
+
+    .floating-dock-container {
+        display: block !important; /* Visible exclusively on smaller screens */
+    }
     :root {
         --floating-nav-bottom: 16px;
     }
