@@ -22,6 +22,10 @@ Abhinav Karn is an independent software developer interested in local-first AI s
 - [Kãl](https://abhinavkarn.in/projects/kal/): Atmospheric 2D psychological horror game prototype built with Blender asset workflows.
 - [Neon Racer X](https://abhinavkarn.in/projects/neon-racer-x/): Fast-paced arcade racing game prototype exploring atmospheric track lighting and real-time physics.
 
+## Tools & Utilities
+
+- [PackShift — MRPACK to ZIP Converter](https://mrpack.abhinavkarn.in/): Browser-based tool to convert Modrinth .mrpack modpacks into standard Minecraft ZIP archives with mod downloads from Modrinth CDN.
+
 ## External Resources & Profiles
 
 - [GitHub Profile](https://github.com/KarnAbhinav00): Public repositories, open-source codebases, and contributions.
