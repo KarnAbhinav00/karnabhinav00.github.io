@@ -1,3 +1,5 @@
 menu_test.png
 verify.png
 *.log
+.DS_Store
+Thumbs.db

@@ -1,23 +1,17 @@
 # robots.txt for https://abhinavkarn.in/
-# Instructs crawlers which URLs they may access. This is advisory, not access
-# control (use auth/firewall for truly private content). The site is public and
-# static, served via GitHub Pages, so all public pages and assets are allowed.
+# Static site served via GitHub Pages. All public pages and assets are allowed.
 
 User-agent: *
 Allow: /
 
-# Sitemap (discoverable here by search engines)
+# Sitemap
 Sitemap: https://abhinavkarn.in/sitemap.xml
 
 # ---------------------------------------------------------------------------
 # AI crawler policy
 # ---------------------------------------------------------------------------
 # The site is built in the open and intended to be discoverable, so AI crawlers
-# are allowed to fetch public content. AI *training* crawlers and AI *search*
-# crawlers are treated separately below. Adjust per policy; to disallow an
-# AI-training crawler, switch "Allow: /" to "Disallow: /" for that user-agent.
-# Note: these directives rely on the crawler honoring them; they are not a
-# guarantee against scraping or training use of the content.
+# are allowed to fetch public content.
 
 # AI training crawlers
 User-agent: GPTBot
