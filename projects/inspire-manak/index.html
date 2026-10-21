@@ -1,23 +1,33 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Tag Manager (Non-blocking mobile optimized) -->
+    <!-- Google Tag Manager (Ultra-optimized user-interaction and idle deferral) -->
     <script>
     window.dataLayer = window.dataLayer || [];
     function initGTM() {
         if (window.gtmDidInit) return;
         window.gtmDidInit = true;
+        window.removeEventListener('scroll', initGTM);
+        window.removeEventListener('pointerdown', initGTM);
+        window.removeEventListener('touchstart', initGTM);
+        window.removeEventListener('keydown', initGTM);
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-N6VHCDK9');
     }
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(initGTM, { timeout: 3000 });
-    } else {
-        window.addEventListener('load', function() { setTimeout(initGTM, 1500); }, { once: true });
-    }
+    window.addEventListener('scroll', initGTM, {passive: true, once: true});
+    window.addEventListener('pointerdown', initGTM, {passive: true, once: true});
+    window.addEventListener('touchstart', initGTM, {passive: true, once: true});
+    window.addEventListener('keydown', initGTM, {passive: true, once: true});
+    window.addEventListener('load', function() {
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(function() { setTimeout(initGTM, 2500); }, { timeout: 6000 });
+        } else {
+            setTimeout(initGTM, 4000);
+        }
+    }, { once: true });
     </script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
@@ -40,8 +50,10 @@
     <link rel="icon" href="../../logo_white-black.png" type="image/png">
     <link rel="apple-touch-icon" href="../../logo_white-black.png">
     <meta property="og:url" content="https://abhinavkarn.in/projects/inspire-manak/">
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.min.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap"></noscript>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -67,23 +79,33 @@
 <a href="#main" class="skip-link">Skip to content</a>
 
 <header class="site-header">
-    <!-- Google Tag Manager (Non-blocking mobile optimized) -->
+    <!-- Google Tag Manager (Ultra-optimized user-interaction and idle deferral) -->
     <script>
     window.dataLayer = window.dataLayer || [];
     function initGTM() {
         if (window.gtmDidInit) return;
         window.gtmDidInit = true;
+        window.removeEventListener('scroll', initGTM);
+        window.removeEventListener('pointerdown', initGTM);
+        window.removeEventListener('touchstart', initGTM);
+        window.removeEventListener('keydown', initGTM);
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-N6VHCDK9');
     }
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(initGTM, { timeout: 3000 });
-    } else {
-        window.addEventListener('load', function() { setTimeout(initGTM, 1500); }, { once: true });
-    }
+    window.addEventListener('scroll', initGTM, {passive: true, once: true});
+    window.addEventListener('pointerdown', initGTM, {passive: true, once: true});
+    window.addEventListener('touchstart', initGTM, {passive: true, once: true});
+    window.addEventListener('keydown', initGTM, {passive: true, once: true});
+    window.addEventListener('load', function() {
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(function() { setTimeout(initGTM, 2500); }, { timeout: 6000 });
+        } else {
+            setTimeout(initGTM, 4000);
+        }
+    }, { once: true });
     </script>
     <!-- End Google Tag Manager -->
     <a href="/" class="site-mark" aria-label="Abhinav Karn — Home">
