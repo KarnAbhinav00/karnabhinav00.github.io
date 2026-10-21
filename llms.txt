@@ -1,34 +1,28 @@
-# llms.txt — Machine-readable index for AI systems
-# https://abhinavkarn.in/
+# Abhinav Karn
 
-## About
-Abhinav Karn is an independent AI & software developer building local-first
-AI assistants, web tools, and experimental technology. The portfolio is built
-in the open and all projects link to GitHub (https://github.com/KarnAbhinav00).
+> Independent developer building AI systems, developer tools, web applications, and experimental software.
 
-## Pages
-- Home: https://abhinavkarn.in/
-- Projects: https://abhinavkarn.in/projects/
-- Tools: https://abhinavkarn.in/tools/
-- About: https://abhinavkarn.in/about/
-- Contact: https://abhinavkarn.in/contact/
-- Notes: https://abhinavkarn.in/notes/
-- Privacy Policy: https://abhinavkarn.in/privacy-policy/
+Abhinav Karn is an independent software developer interested in local-first AI systems, agentic automation, web development, and experimental engineering. All public projects are documented with source repositories on GitHub.
 
-## Project Pages
-- STONY — local-first AI assistant: https://abhinavkarn.in/projects/stony-ai-assistant/
-- STARK Counter — AI control center: https://abhinavkarn.in/projects/stark-counter/
-- Inspire MANAK Assist Vision — assistive technology: https://abhinavkarn.in/projects/inspire-manak/
-- Kãl — atmospheric horror game: https://abhinavkarn.in/projects/kal/
-- Neon Racer X — futuristic racing game: https://abhinavkarn.in/projects/neon-racer-x/
+## Navigation & Core Pages
 
-## Featured projects
-- STONY — local-first AI assistant with conversation memory and tool use (Python, Ollama)
-- STARK Counter — connected AI control center that unifies models, projects, and tools (JavaScript, HTML, CSS)
-- Inspire MANAK Assist Vision — computer-vision assistive prototype with embedded hardware and audio feedback
-- Kãl — dark, atmospheric 2D horror game concept (Blender, Game design)
-- Neon Racer X — futuristic arcade racing prototype (Game development, Blender)
+- [Home](https://abhinavkarn.in/): Primary introduction, selected projects, tools overview, and engineering philosophy.
+- [Projects Directory](https://abhinavkarn.in/projects/): Complete directory of software projects, games, and research prototypes.
+- [Developer Tools](https://abhinavkarn.in/tools/): Browser-based developer tools and automation utilities.
+- [About](https://abhinavkarn.in/about/): Background, technical areas of focus, toolstack, and education record.
+- [Contact](https://abhinavkarn.in/contact/): Verified direct communication channels and active hours.
+- [Notes](https://abhinavkarn.in/notes/): Technical articles, build logs, and architecture documentation.
+- [Privacy Policy](https://abhinavkarn.in/privacy-policy/): Technical transparency policy regarding hosting, Google Tag Manager, and cookies.
 
-## Contact
-- Email: karn.abhinav00@gmail.com
-- GitHub: https://github.com/KarnAbhinav00
+## Featured Projects
+
+- [STONY AI Assistant](https://abhinavkarn.in/projects/stony-ai-assistant/): Local-first conversational AI companion with persistent memory and tool execution using Python and Ollama.
+- [STARK Counter](https://abhinavkarn.in/projects/stark-counter/): Unified AI control center and developer cockpit consolidating multiple models and workflows.
+- [Inspire MANAK Assist Vision](https://abhinavkarn.in/projects/inspire-manak/): Assistive computer vision prototype with embedded processing and wireless audio feedback for the visually impaired.
+- [Kãl](https://abhinavkarn.in/projects/kal/): Atmospheric 2D psychological horror game prototype built with Blender asset workflows.
+- [Neon Racer X](https://abhinavkarn.in/projects/neon-racer-x/): Fast-paced arcade racing game prototype exploring atmospheric track lighting and real-time physics.
+
+## External Resources & Profiles
+
+- [GitHub Profile](https://github.com/KarnAbhinav00): Public repositories, open-source codebases, and contributions.
+- [Contact Email](mailto:karn.abhinav00@gmail.com): Direct developer contact.
